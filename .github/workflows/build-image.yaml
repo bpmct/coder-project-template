@@ -4,7 +4,7 @@ on:
     branches:
       - 'main'
     # paths:
-      - '.coder/img' # only run the action when .coder/img has been modified
+      - '.coder/img/*' # only run the action when .coder/img has been modified
   workflow_dispatch:
 jobs:
   docker:
