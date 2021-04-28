@@ -3,8 +3,8 @@ on:
   push:
     branches:
       - 'main'
-    paths:
-      - '.coder/img/' # only run this when .coder/img has been modified
+    # paths:
+    #   - '.coder/img/' # only run this when .coder/img has been modified
 jobs:
   docker:
     runs-on: ubuntu-latest
