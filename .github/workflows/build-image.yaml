@@ -4,11 +4,15 @@ on:
     branches:
       - 'main'
     # paths:
-    #   - '.coder/img/' # only run this when .coder/img has been modified
+      - '.coder/img' # only run this when .coder/img has been modified
 jobs:
   docker:
     runs-on: ubuntu-latest
     steps:
+      - 
+        name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v2.1
       - 
         name: Check out the repo
         uses: actions/checkout@v2
