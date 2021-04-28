@@ -1,11 +1,13 @@
+# Use our docs for reference:
+# https://coder.com/docs/workspaces/workspaces-as-code/templates
 version: 0.1
 workspace:
   type: "kubernetes"
   spec:
-    image: bencdr/company-blog:latest
+    image: username/projectname:latest # Rename to the same as your image
     container-based-vm: true
-    cpu: 3
-    memory: 2
+    cpu: 1
+    memory: 1
     disk: 10
   configure:
     start:
@@ -16,5 +18,3 @@ workspace:
       port: 3000
       scheme: http
       access: private
-
-# Modifying something outside the Dockerfile

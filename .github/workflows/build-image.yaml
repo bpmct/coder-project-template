@@ -7,7 +7,7 @@ on:
       - '.coder/img/**' # only run the action when .coder/img has been modified
   workflow_dispatch:
 jobs:
-  docker:
+  build-image:
     runs-on: ubuntu-latest
     steps:
       - 
@@ -29,7 +29,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/project-name:latest # By default, it will use the repository name as the image name
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/projectname:latest # By default, it will use the repository name as the image name
           context: .coder/img/
           file: .coder/img/Dockerfile
       -
