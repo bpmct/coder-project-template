@@ -16,3 +16,5 @@ workspace:
       port: 3000
       scheme: http
       access: private
+
+# Modifying something outside the Dockerfile
