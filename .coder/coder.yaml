@@ -1,0 +1,18 @@
+version: 0.1
+workspace:
+  type: "kubernetes"
+  spec:
+    image: bencdr/company-blog:latest
+    container-based-vm: true
+    cpu: 3
+    memory: 2
+    disk: 10
+  configure:
+    start:
+      - name: "Example step"
+        command: echo "Welcome to your Coder workspace!"
+  devURLs:
+    - name: dev
+      port: 3000
+      scheme: http
+      access: private
