@@ -1,6 +1,6 @@
 # coder-project-template
 
-An example template for building a custom workspace around a project. This includes:
+An example template for building a custom [Coder](https://coder.com/docs) workspace around a project. This includes:
 
 * A Coder workspace template - `.coder/coder.yaml`
 * A custom image for Coder - `.coder/img`
