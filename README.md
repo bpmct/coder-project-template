@@ -2,9 +2,10 @@
 
 An example template for building a custom [Coder](https://coder.com/docs) workspace around a project. This includes:
 
-* A Coder workspace template - `.coder/coder.yaml`
-* A custom image for Coder - `.coder/img`
+* Coder workspace template - `.coder/coder.yaml`
+* Custom image for Coder - `.coder/img`
 * GitHub Actions CI for building the custom image - `.github/workflows/build-image.yaml`
+* Sample "app code" in `src/`
 
 ## Set up
 
