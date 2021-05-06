@@ -10,7 +10,7 @@ An example template for building a custom [Coder](https://coder.com/docs) worksp
 ## Set up
 
 1. Use this template to [create your own repository](https://github.com/bpmct/coder-project-template/generate)
-1. Add [secrets](https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository) to the repository for your [Docker Hub](https://hub.docker.com/) account:
+1. Add [secrets](https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository) to the repository with your [Docker Hub](https://hub.docker.com/) account details:
 
         DOCKERHUB_USERNAME (your username for Docker Hub)
         DOCKERHUB_TOKEN (your password or token)
