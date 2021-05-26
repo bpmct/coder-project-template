@@ -4,7 +4,7 @@ version: 0.1
 workspace:
   type: "kubernetes"
   spec:
-    image: username/projectname:latest # Rename to the same as your image
+    image: bencdr/coder-home-directory:latest # Rename to the same as your image
     container-based-vm: true
     cpu: 1
     memory: 1
