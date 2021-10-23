@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# The configure script runs when the workspace starts.
+# see https://coder.com/docs/coder/latest/images/configure

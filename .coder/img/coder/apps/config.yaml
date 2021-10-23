@@ -1,0 +1,3 @@
+# Include custom applications in your Coder workspace
+# see https://coder.com/docs/coder/latest/workspaces/applications
+apps:
